@@ -17,6 +17,10 @@ describe 'Usuário visita home' do
     click_on 'Entrar'
 
     expect(current_path).to eq root_path
-    expect(page).to have_content('Login feito com sucesso')
+    expect(page).to have_content('Login realizado com sucesso')
+  end
+
+  it 'e cria uma nova conta' do
+    # pending
   end
 end
